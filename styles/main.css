@@ -1,0 +1,104 @@
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    width:600px;
+    margin: 0 auto;
+    background-color: #fff1ed;
+    border: 3px solid red;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1.5em 2em;
+    border-bottom: 3px solid #931420;
+    background: linear-gradient(to right, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+main {
+    padding-left:30px;
+    padding-right:30px;
+}
+main h1{
+    border-top: 3px solid #931420;
+    border-bottom: 3px solid #931420;
+}
+
+
+header h2 {
+    font-size: 170%;
+    color: #800000;
+    margin-left: 30px;
+}
+.logo{
+    float: left;
+   
+    padding-left:30px;
+    padding-right:30px;
+}
+header p {
+    font-size: 130%;
+    font-style: italic;
+    margin-left: 30px;
+}
+html {
+    background-color: white;
+}
+#intro h2 {
+    font-size: 170%;
+    color: #800000;
+    margin-left: 30px;
+}
+
+#intro blockquote {
+    font-style: italic;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#tickets h2 {
+    font-size: 170%;
+    color: #800000;
+    margin-left: 30px;
+}
+
+#tickets ul {
+    margin-left: 50px;
+}
+
+#speakers h2 {
+    font-size: 170%;
+    color: #800000;
+    margin-left: 30px;
+}
+
+#speakers p {
+    margin-left: 30px;
+}
+
+#speakers a {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+#speakers a:hover {
+    font-style: italic;
+}
+footer {
+    background-color: #800000;
+}
+footer p {
+    text-align: center;
+    font-style: italic;
+    color:white;
+}
+
+.shad {
+    text-shadow: 2px 2px 5px grey;
+}
